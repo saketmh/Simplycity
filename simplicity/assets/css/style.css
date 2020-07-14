@@ -1,0 +1,359 @@
+* {margin:0; padding: 0;}
+
+html {
+	scroll-behavior: smooth;
+}
+body {background-color: #252525;}
+
+.container{
+    max-width: 1200px;
+    height: auto;
+}
+
+h1 {
+  text-align: center;
+   height: auto;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.heading{margin-bottom: 30px;}
+
+.imgr {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center center;
+}
+
+.bg-image{background-image: url(../img/bgimage.jpg);}
+.bg-image1{background-image: url(../img/bgimage1.jpg);}
+
+.bg-img-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.bg-black{background-color: #000000;}
+.bg-grey{background-color: #f2f2f2;}
+
+/*margin*/
+.mtb-30{margin-top: 30px; margin-bottom: 30px;}
+.mtb-50{margin-top: 50px; margin-bottom: 50px;}
+
+/*padding*/
+.ptb-30{padding-top: 30px; padding-bottom: 30px;}
+.ptb-50{padding-top: 50px; padding-bottom: 50px;}
+.ptb-70{padding-top: 70px; padding-bottom: 70px;}
+.ptb-100{padding-top: 100px; padding-bottom: 100px;}
+
+.btn{
+  outline: 0;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  font-size: 16px;
+  padding: 8px 30px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.btn-block{
+  display: block;
+  width: 100%;
+}
+
+.btn-fill{
+  background-color: #0080ff;
+  color: #ffffff;
+}
+
+/*== Font Awesome ==*/
+.fa {
+  font-size: 40px;
+}
+.fa-red{color: #ff3300;}
+.fa-blue{color: #0077ff;}
+.fa-green{color: #00ff88;}
+
+
+.header {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 99;
+  width: 100%;  
+}
+
+.nav ul li a{
+  color: #ffffff;
+}
+
+
+/*======= Navbar =======*/
+
+#navbar h1{
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 0 0 4px rgba(0,0,0,.25);;
+}
+
+.navbar-toggler-icon .fas {
+  color: #ffffff;
+}
+
+.nav li a{
+  padding: 5px 10px;
+  color: #f8f9fa;
+  font-size: 20px; 
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav .nav-item a:hover{
+  color: #0080ff;
+}
+.nav ul li:hover a{
+  color: #0080ff;
+}
+.dropdown-menu {border: none;}
+ 
+.dropdown-item:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*======= Main Banner ========*/
+
+.main-banner{
+  padding: 180px 0;
+}
+
+.main-banner h1 h3{
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.main-banner p span{
+  background-color: #0080ff;
+  padding: 10px 30px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.main-banner .fa {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.social .fab{
+  font-size: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*======= Main Slider ========*/
+
+.main-slider .container-fluid {
+  padding: 0;
+}
+
+.main-slider h3{
+  font-size: 80px; 
+  text-align: center; 
+  margin: auto; 
+  font-family: 'Permanent Marker', cursive;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainSlidercenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+/*======== About Me =========*/
+
+.about-text h3{
+  margin-bottom: 30px;
+}
+ .about-text p{
+  margin-top: 10px;
+  margin-bottom: 30px;;
+}
+.about-text ul{
+  margin-bottom: 30px;
+} 
+.about-text ul li{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding:2px 8px;
+  margin: 0px 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*======== Work Section ========*/
+
+.work{text-align: center;}
+.service {
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 4px;;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
+  overflow: hidden;
+  margin-bottom: 30px;
+
+}
+.service:hover{
+  box-shadow: 0px 0px 5px 0px #000000;
+}
+.service p{
+  padding-top: 10px;;
+  padding-bottom: 20px;
+}
+
+/*======== Skill Section ========*/
+
+.skillsection{
+  margin-bottom: 20px;
+  padding: 0px 40px;
+}
+.skill {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+.info{margin-bottom: 10px;}
+.info p {display: inline; font-size: 15px;}
+.info .skillname {font-weight: 600;}
+.info .percentage {right:0; top:0; float: right;}
+.progress {
+  height: 10px;
+   margin-bottom: 15px;
+   width:100%; 
+  border: 1px solid #0080ff;
+  padding: 1px;
+}
+.progress-bar{
+  background-color: #0080ff;
+}
+
+/*====== portfolio section ======*/
+.box{
+  height: 400px;
+  position: relative;
+  margin-bottom: 60px;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
+  overflow: hidden;
+}
+
+/*===== contact section =====*/
+button a{
+  color: #ffffff;
+}
+button a:hover{
+  color: #000000;
+}
+/*====== footer section ======*/
+.cinfo{
+  margin: 20px;
+}
+
+.cicon {
+  padding: 0 10px 5px 0;
+  font-size: 20px;
+}
+
+.ctext{
+  font-size: 18px;
+}
+
+.faicon{
+  font-size: 30px;
+}
+.faicon .fab{
+  margin: 10px 10px;
+}
+
+.foooter-bottom {
+  width: 100%;
+  padding: 10px auto;
+}
+
+.foooter-bottom p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+/*====== form-control ======*/
+
+.form-control{
+  height: inherit;
+  background-color: inherit;
+  border: none;
+  padding: 0;
+  margin: 10px 0px;
+  padding: 0px 30px;
+}
+
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control textarea {
+  color: #ffffff;
+  background: rgba(255,255,255,0);
+  font-size: 18px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+
+/*======= Animate Css========*/
+
+.animateFade {
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-name: fadeInUp;
+}
+
+/*===== on scroll header ======*/
+
+.header-fix {
+  position: fixed;
+  background-color: #000000;
+  width: 100%;
+}

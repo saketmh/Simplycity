@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px){
+    .about{
+        text-align:center;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    #mobileview {
+        background-color: #000000;
+        margin: 0 20px;
+        padding: 0px 29px;
+    }
+    .dropdown-toggle::after{
+        float: right;
+        margin: 10px auto;
+    }
+}
